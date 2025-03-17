@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33020.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8AF1ED56-06AE-48BA-A223-7F19824C0C2F}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\CONTRIBUTING.md = ..\.github\CONTRIBUTING.md
+		..\.github\README.md = ..\.github\README.md
+		..\docs\README_nuget.md = ..\docs\README_nuget.md
+		..\umbraco-marketplace.json = ..\umbraco-marketplace.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomStringGenerator.TestSite", "RandomStringGenerator.TestSite\RandomStringGenerator.TestSite.csproj", "{F3387BB8-35A7-4F20-8061-81767C81067E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomStringGenerator", "RandomStringGenerator\RandomStringGenerator.csproj", "{CC6305EF-9088-45B6-B496-DDE50408FB0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Debug|x64.Build.0 = Debug|Any CPU
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Debug|x86.Build.0 = Debug|Any CPU
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Release|x64.ActiveCfg = Release|Any CPU
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Release|x64.Build.0 = Release|Any CPU
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Release|x86.ActiveCfg = Release|Any CPU
+		{F3387BB8-35A7-4F20-8061-81767C81067E}.Release|x86.Build.0 = Release|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Debug|x64.Build.0 = Debug|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Debug|x86.Build.0 = Debug|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Release|x64.ActiveCfg = Release|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Release|x64.Build.0 = Release|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Release|x86.ActiveCfg = Release|Any CPU
+		{CC6305EF-9088-45B6-B496-DDE50408FB0F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F07004F-9903-4AEB-9ED0-BE57A0326D20}
+	EndGlobalSection
+EndGlobal

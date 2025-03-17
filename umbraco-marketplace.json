@@ -1,0 +1,14 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json", 
+    "AuthorDetails": {
+      "Name": "Abdulaziz",
+      "ImageUrl": "https://github.com/Abdjulaziz.png"
+    },
+    "Category": "",
+    "Description": "",
+    "LicenseTypes": [ "Free" ],
+    "IssueTrackerUrl": "https://github.com/Abdjulaziz/MyNewCustomPropertyEditorProject/issues",
+    "PackageType": "Package",
+    "Tags": [],
+    "Title": "Random String Generator "
+  }
