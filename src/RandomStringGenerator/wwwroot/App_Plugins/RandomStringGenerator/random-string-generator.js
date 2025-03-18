@@ -5,7 +5,7 @@ const t = [
     type: "backofficeEntryPoint",
     js: () => import("./entrypoint-DhJLPN2f.js")
   }
-], o = [
+], a = [
   {
     name: "Random String Generator Dashboard",
     alias: "RandomStringGenerator.Dashboard",
@@ -22,25 +22,25 @@ const t = [
       }
     ]
   }
-], a = [
+], n = [
   {
-    alias: "My.PropertyEditorUi.Suggestions",
-    name: "My Suggestions Property Editor UI",
+    alias: "My.PropertyEditorUi.Random-String-Generator",
+    name: "My Random String Generator Property Editor UI",
     type: "propertyEditorUi",
-    element: () => import("./suggestions-property-editor-ui.element-0f25THSi.js"),
+    element: () => import("./random-string-generator-property-editor-ui.element-CU5nRpuH.js"),
     meta: {
-      label: "Suggestions",
-      icon: "icon-list",
+      label: "Random String Generator",
+      icon: "icon-code",
       group: "common",
       propertyEditorSchemaAlias: "Umbraco.Plain.String"
     }
   }
-], n = [
+], o = [
   ...t,
-  ...o,
-  ...a
+  ...a,
+  ...n
 ];
 export {
-  n as manifests
+  o as manifests
 };
 //# sourceMappingURL=random-string-generator.js.map
