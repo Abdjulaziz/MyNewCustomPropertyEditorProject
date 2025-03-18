@@ -62,7 +62,7 @@ export default class MyRandomStringGenerator extends LitElement implements UmbPr
 
   #onGenerate() {
     if (!this.errorMessage) {
-      this.value = this.#generateRandomString();
+      this.value = this.#generateRandomString()!;
       this.#dispatchChangeEvent();
     }
   }
@@ -83,13 +83,13 @@ export default class MyRandomStringGenerator extends LitElement implements UmbPr
         .value=${this.maxLength}
         @input=${this.#onLengthChange}
         ?error=${this.errorMessage !== ""}
-          style="width: 100px;"
+         style="width: 100px; margin-bottom: 10px;"
       ></uui-input>
       ${this.errorMessage ? html`<p style="color: red;">${this.errorMessage}</p>` : ""}
 
-      <fieldset style="border: none;">
+      <fieldset style="border: none; margin-left: -10px">
         <legend>Allowed Characters</legend>
-        <ul style="list-style: none; margin: 0;">
+        <ul style="list-style: none; margin-left: -30px;">
           ${Object.keys(this.characterOptions).map(
       (key) => html`
               <li>
@@ -107,13 +107,13 @@ export default class MyRandomStringGenerator extends LitElement implements UmbPr
         </ul>
       </fieldset>
 
-      <uui-input-lock
+      <uui-input
         id="random-string-input"
         label="Random String"
         .value=${this.value || ""}
         @input=${this.#onInput}
          style="width: 300px;"
-      ></uui-input-lock>
+      ></uui-input>
 
       <div id="wrapper">
         <uui-button
