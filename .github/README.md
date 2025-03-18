@@ -17,3 +17,8 @@ Add the package to an existing Umbraco website (v15+) from nuget:
 
 `dotnet add package Umbraco.Community.RandomStringGenerator`
 
+
+# Property editor style
+![image](https://github.com/user-attachments/assets/5a68a9d1-6f91-48dc-8402-d504c8bd2416)
+
+
