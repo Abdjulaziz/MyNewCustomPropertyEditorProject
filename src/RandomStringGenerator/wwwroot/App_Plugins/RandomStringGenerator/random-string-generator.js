@@ -27,7 +27,7 @@ const t = [
     alias: "My.PropertyEditorUi.Random-String-Generator",
     name: "My Random String Generator Property Editor UI",
     type: "propertyEditorUi",
-    element: () => import("./random-string-generator-property-editor-ui.element-Ci-BeaHv.js"),
+    element: () => import("./random-string-generator-property-editor-ui.element-BqLzVsS_.js"),
     meta: {
       label: "Random String Generator",
       icon: "icon-code",

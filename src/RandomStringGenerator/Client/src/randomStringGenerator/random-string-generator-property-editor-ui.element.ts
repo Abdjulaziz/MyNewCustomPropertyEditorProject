@@ -73,7 +73,7 @@ export default class MyRandomStringGenerator extends LitElement implements UmbPr
 
   render() {
     return html`
-    <uui-label">Charecter legth</uui-label>
+    <uui-label">character length</uui-label>
       <uui-input
         label="Length"
         placeholder="Enter length (max 32)"

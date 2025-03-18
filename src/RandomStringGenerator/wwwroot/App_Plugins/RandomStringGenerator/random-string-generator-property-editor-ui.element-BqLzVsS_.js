@@ -1,5 +1,5 @@
-import { LitElement as _, html as u, css as C, property as o, customElement as S } from "@umbraco-cms/backoffice/external/lit";
-import { UmbPropertyValueChangeEvent as b } from "@umbraco-cms/backoffice/property-editor";
+import { LitElement as _, html as u, css as S, property as o, customElement as b } from "@umbraco-cms/backoffice/external/lit";
+import { UmbPropertyValueChangeEvent as C } from "@umbraco-cms/backoffice/property-editor";
 var M = Object.defineProperty, w = Object.getOwnPropertyDescriptor, d = (e) => {
   throw TypeError(e);
 }, l = (e, t, r, h) => {
@@ -18,7 +18,7 @@ let i = class extends _ {
   }
   render() {
     return u`
-    <uui-label">Charecter legth</uui-label>
+    <uui-label">character length</uui-label>
       <uui-input
         label="Length"
         placeholder="Enter length (max 32)"
@@ -98,9 +98,9 @@ x = function() {
   this.errorMessage || (this.value = n(this, a, y).call(this), n(this, a, g).call(this));
 };
 g = function() {
-  this.dispatchEvent(new b());
+  this.dispatchEvent(new C());
 };
-i.styles = C`
+i.styles = S`
     #wrapper {
       margin-top: 10px;
       display: flex;
@@ -123,9 +123,9 @@ l([
   o({ type: Array })
 ], i.prototype, "selectedCharacterSets", 2);
 i = l([
-  S("my-random-string-generator")
+  b("my-random-string-generator")
 ], i);
 export {
   i as default
 };
-//# sourceMappingURL=random-string-generator-property-editor-ui.element-Ci-BeaHv.js.map
+//# sourceMappingURL=random-string-generator-property-editor-ui.element-BqLzVsS_.js.map
