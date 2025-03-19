@@ -19,6 +19,7 @@ Add the package to an existing Umbraco website (v15+) from nuget:
 
 
 # Property editor style
-![image](https://github.com/user-attachments/assets/5a68a9d1-6f91-48dc-8402-d504c8bd2416)
+![image](https://github.com/user-attachments/assets/7e1b6986-c938-4e41-935a-9588504bed6a)
+
 
 
