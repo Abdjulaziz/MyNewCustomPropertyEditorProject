@@ -107,13 +107,13 @@ export default class MyRandomStringGenerator extends LitElement implements UmbPr
         </ul>
       </fieldset>
 
-      <uui-input-lock
+      <uui-input
         id="random-string-input"
         label="Random String"
         .value=${this.value || ""}
         @input=${this.#onInput}
          style="width: 300px;"
-      ></uui-input-lock>
+      ></uui-input>
 
       <div id="wrapper">
         <uui-button
