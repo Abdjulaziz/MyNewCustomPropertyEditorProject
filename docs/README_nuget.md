@@ -1,7 +1,24 @@
 # Random String Generator 
 
-[![Downloads](https://img.shields.io/nuget/dt/Umbraco.Community.RandomStringGenerator?color=cc9900)](https://www.nuget.org/packages/Umbraco.Community.RandomStringGenerator/)
+[![Downloads](https://img.shields.io/nuget/dt/Umbraco.Community.RandomStringGenerator?color=cc9900)](https://www.nuget.org/packages/Umbraco.Community.RandomStringGenerator)
 [![NuGet](https://img.shields.io/nuget/vpre/Umbraco.Community.RandomStringGenerator?color=0273B3)](https://www.nuget.org/packages/Umbraco.Community.RandomStringGenerator)
-[![GitHub license](https://img.shields.io/github/license/Abdjulaziz/MyNewCustomPropertyEditorProject?color=8AB803)](https://github.com/Abdjulaziz/MyNewCustomPropertyEditorProject/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Abdjulaziz/MyNewCustomPropertyEditorProject?color=8AB803)](../LICENSE)
+<!--
+Including screenshots is a really good idea! 
 
-An Umbraco Custom property editor to generate a random string
+If you put images into /docs/screenshots, then you would reference them in this readme as, for example:
+
+<img alt="..." src="https://github.com/Abdjulaziz/MyNewCustomPropertyEditorProject/blob/develop/docs/screenshots/screenshot.png">
+-->
+
+## Installation
+
+Add the package to an existing Umbraco website (v15+) from nuget:
+
+`dotnet add package Umbraco.Community.RandomStringGenerator`
+
+
+# Property editor
+![image](https://github.com/user-attachments/assets/5a68a9d1-6f91-48dc-8402-d504c8bd2416)
+
+
