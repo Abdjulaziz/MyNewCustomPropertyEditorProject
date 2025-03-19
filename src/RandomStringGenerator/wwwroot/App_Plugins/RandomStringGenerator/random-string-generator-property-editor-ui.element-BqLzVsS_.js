@@ -1,13 +1,13 @@
-import { LitElement as x, html as p, css as C, property as o, customElement as S } from "@umbraco-cms/backoffice/external/lit";
-import { UmbPropertyValueChangeEvent as b } from "@umbraco-cms/backoffice/property-editor";
+import { LitElement as _, html as u, css as S, property as o, customElement as b } from "@umbraco-cms/backoffice/external/lit";
+import { UmbPropertyValueChangeEvent as C } from "@umbraco-cms/backoffice/property-editor";
 var M = Object.defineProperty, w = Object.getOwnPropertyDescriptor, d = (e) => {
   throw TypeError(e);
 }, l = (e, t, r, h) => {
-  for (var s = h > 1 ? void 0 : h ? w(t, r) : t, c = e.length - 1, u; c >= 0; c--)
-    (u = e[c]) && (s = (h ? u(t, r, s) : u(s)) || s);
+  for (var s = h > 1 ? void 0 : h ? w(t, r) : t, c = e.length - 1, p; c >= 0; c--)
+    (p = e[c]) && (s = (h ? p(t, r, s) : p(s)) || s);
   return h && s && M(t, r, s), s;
-}, $ = (e, t, r) => t.has(e) || d("Cannot " + r), L = (e, t, r) => t.has(e) ? d("Cannot add the same private member more than once") : t instanceof WeakSet ? t.add(e) : t.set(e, r), n = (e, t, r) => ($(e, t, "access private method"), r), a, m, f, v, y, _, g;
-let i = class extends x {
+}, $ = (e, t, r) => t.has(e) || d("Cannot " + r), L = (e, t, r) => t.has(e) ? d("Cannot add the same private member more than once") : t instanceof WeakSet ? t.add(e) : t.set(e, r), n = (e, t, r) => ($(e, t, "access private method"), r), a, m, f, v, y, x, g;
+let i = class extends _ {
   constructor() {
     super(...arguments), L(this, a), this.value = "", this.maxLength = 32, this.errorMessage = "", this.selectedCharacterSets = ["Lowercase letters (a-z)"], this.characterOptions = {
       "Numeric digits (0-9)": "0123456789",
@@ -17,8 +17,8 @@ let i = class extends x {
     };
   }
   render() {
-    return p`
-    <uui-label">Charecter legth</uui-label>
+    return u`
+    <uui-label">character length</uui-label>
       <uui-input
         label="Length"
         placeholder="Enter length (max 32)"
@@ -28,15 +28,15 @@ let i = class extends x {
         .value=${this.maxLength}
         @input=${n(this, a, v)}
         ?error=${this.errorMessage !== ""}
-          style="width: 100px;"
+         style="width: 100px; margin-bottom: 10px;"
       ></uui-input>
-      ${this.errorMessage ? p`<p style="color: red;">${this.errorMessage}</p>` : ""}
+      ${this.errorMessage ? u`<p style="color: red;">${this.errorMessage}</p>` : ""}
 
-      <fieldset style="border: none;">
+      <fieldset style="border: none; margin-left: -10px">
         <legend>Allowed Characters</legend>
-        <ul style="list-style: none; margin: 0;">
+        <ul style="list-style: none; margin-left: -30px;">
           ${Object.keys(this.characterOptions).map(
-      (e) => p`
+      (e) => u`
               <li>
                 <uui-checkbox
                   .checked=${this.selectedCharacterSets.includes(e)}
@@ -52,19 +52,19 @@ let i = class extends x {
         </ul>
       </fieldset>
 
-      <uui-input-lock
+      <uui-input
         id="random-string-input"
         label="Random String"
         .value=${this.value || ""}
         @input=${n(this, a, m)}
          style="width: 300px;"
-      ></uui-input-lock>
+      ></uui-input>
 
       <div id="wrapper">
         <uui-button
           look="primary"
           label="Generate Random String"
-          @click=${n(this, a, _)}
+          @click=${n(this, a, x)}
           ?disabled=${this.errorMessage !== ""}
           style="width: auto;"
         >
@@ -94,13 +94,13 @@ y = function() {
     () => e.charAt(Math.floor(Math.random() * e.length))
   ).join("");
 };
-_ = function() {
+x = function() {
   this.errorMessage || (this.value = n(this, a, y).call(this), n(this, a, g).call(this));
 };
 g = function() {
-  this.dispatchEvent(new b());
+  this.dispatchEvent(new C());
 };
-i.styles = C`
+i.styles = S`
     #wrapper {
       margin-top: 10px;
       display: flex;
@@ -123,9 +123,9 @@ l([
   o({ type: Array })
 ], i.prototype, "selectedCharacterSets", 2);
 i = l([
-  S("my-random-string-generator")
+  b("my-random-string-generator")
 ], i);
 export {
   i as default
 };
-//# sourceMappingURL=random-string-generator-property-editor-ui.element-CU5nRpuH.js.map
+//# sourceMappingURL=random-string-generator-property-editor-ui.element-BqLzVsS_.js.map
